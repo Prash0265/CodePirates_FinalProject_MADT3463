@@ -102,4 +102,7 @@ public class Employee {
         this.employeeContract = employeeContract;
     }
 
+    public String contractInfo() {
+        return getName() + " is a " + getRole();
+    }
 }
