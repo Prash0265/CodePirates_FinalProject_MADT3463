@@ -34,5 +34,13 @@ public class Main {
             System.out.println("-----------------------------------------------------");
             System.out.println("-----------------------------------------------------");
         }
+
+        System.out.println("Test 3:");
+        Employee Serge = new Manager("Serge", 1985, 30, 4, 100,v1);
+        Employee Cindy = new Manager("Cindy", 1974, 20 , 6, 80,v2) ;
+        Employee Paul = new Programmer("Paul", 1993, 3,  75,v3);
+        Employee Pierre = new Tester("Pierre", 1987, 124, 50,v4 );
+        Employee Matt = new Programmer("Matt", 1981, 5 , 110,v5);
+        Employee Sarah = new Programmer("Sarah", 1986, 3 , 100,v6);
     }
 }

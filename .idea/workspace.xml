@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Created a Temporary class constructor with parameters" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Replaced the direct calling of employees array with for loop calling" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -332,7 +332,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669314446087</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Created getFinalAmount() methos in Temporary class">
+      <created>1669314537880</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314537880</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added toString() overriding in Temporary class">
+      <created>1669314609297</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314609298</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Replaced the direct calling of employees array with for loop calling">
+      <created>1669314733653</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314733653</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,9 +368,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dded Motorcycle class attributes and constructor" />
-    <MESSAGE value="dded getters ans setters in Vehicle class" />
-    <MESSAGE value="Added getters ans setters in Vehicle class" />
     <MESSAGE value="Added New constructor in Employee class with vehicle input" />
     <MESSAGE value="Added New constructor in Manager class with vehicle input" />
     <MESSAGE value="Added Car and Motorcycle objects in main file" />
@@ -372,6 +390,9 @@
     <MESSAGE value="Created Temporary class" />
     <MESSAGE value="Added getters and setters Temporary class" />
     <MESSAGE value="Created a Temporary class constructor with parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a Temporary class constructor with parameters" />
+    <MESSAGE value="Created getFinalAmount() methos in Temporary class" />
+    <MESSAGE value="Added toString() overriding in Temporary class" />
+    <MESSAGE value="Replaced the direct calling of employees array with for loop calling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced the direct calling of employees array with for loop calling" />
   </component>
 </project>
