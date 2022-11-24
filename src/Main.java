@@ -78,5 +78,12 @@ public class Main {
             System.out.println(employees[i]);
             System.out.println("-----------------------------------------------------");
         }
+
+        System.out.println("CONTRACTS:");
+        System.out.println("-----------------------------------------------------");
+        for (int i =0;i<=length-1;i++) {
+            System.out.println(employees[i].contractInfo()+employees[i].employeeContract);
+        }
+        System.out.println("-----------------------------------------------------");
     }
 }
