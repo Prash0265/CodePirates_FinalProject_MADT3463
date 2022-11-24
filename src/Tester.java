@@ -15,4 +15,5 @@ public class Tester extends Employee {
         System.out.println("We have a new employee: " + name + ", a " + getRole());
 
     }
+
 }

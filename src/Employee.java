@@ -6,7 +6,7 @@ public class Employee {
     private int rate;
     private String role;
     Vehicle employeeVehicle;
-    //Contract employeeContract;
+    Contract employeeContract;
 
 
 
