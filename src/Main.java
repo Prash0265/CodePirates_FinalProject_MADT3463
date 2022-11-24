@@ -58,5 +58,12 @@ public class Main {
         Temporary t2 = new Temporary(50, 60);
         Permanent p3 = new Permanent(1,  true,  4000, 100,  20);
         Permanent p4 = new Permanent(4,  true,  4500,  100, 19);
+
+        Serge.signContract(p1);
+        Cindy.signContract(p2);
+        Paul.signContract(t1);
+        Matt.signContract(t2);
+        Pierre.signContract(p3);
+        Sarah.signContract(p4);
     }
 }
