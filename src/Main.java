@@ -9,6 +9,7 @@ public class Main {
         Car v4 = new Car("BMW", "Custom Plate","Black", "Family", "Automatic","Sedan" );
         Car v5 = new Car("Renault Clio", "Custom Plate","Blue", "Family", "Manual","Hatchback" );
         Car v6 = new Car("Mazda", "Custom Plate","White", "Family", "Automatic","SUV" );
+
         System.out.println("Test 1:");
         int length = employees.length;
         employees[0] = new Manager("Serge", 1985, 30, 4, 100);
@@ -50,10 +51,11 @@ public class Main {
             System.out.println("-----------------------------------------------------");
             System.out.println("-----------------------------------------------------");
         }
+
         Permanent p1 = new Permanent(2,true,6000,200,17);
         Permanent p2 = new Permanent(3,  false, 5000,  150,  19);
-        //Temporary t1 = new Temporary(60, 30);
-        //Temporary t2 = new Temporary(50, 60);
+        Temporary t1 = new Temporary(60, 30);
+        Temporary t2 = new Temporary(50, 60);
         Permanent p3 = new Permanent(1,  true,  4000, 100,  20);
         Permanent p4 = new Permanent(4,  true,  4500,  100, 19);
     }

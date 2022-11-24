@@ -73,43 +73,45 @@ class Permanent implements Contract {
     }
 
 
-    class Temporary implements Contract {
-        int hourlySalary;
-        int accumulatedHours;
 
-        public int getHourlySalary() {
-            return hourlySalary;
-        }
+}
 
-        public void setHourlySalary(int hourlySalary) {
-            this.hourlySalary = hourlySalary;
-        }
+class Temporary implements Contract {
+    int hourlySalary;
+    int accumulatedHours;
 
-        public int getAccumulatedHours() {
-            return accumulatedHours;
-        }
-
-        public void setAccumulatedHours(int accumulatedHours) {
-            this.accumulatedHours = accumulatedHours;
-        }
-
-        Temporary(int hourlySalary, int accumulatedHours) {
-            this.hourlySalary = hourlySalary;
-            this.accumulatedHours = accumulatedHours;
-        }
-        public float getFinalAmount() {
-            int finalAmount;
-            finalAmount = hourlySalary * accumulatedHours;
-            return finalAmount;
-        }
-
-        @Override
-        public String toString() {
-            String output;
-            output = ". he is temporary employee with " + getHourlySalary() + "\nhourly salary and he has worked for " + getAccumulatedHours() + " hours";
-            return output;
-        }
-
-
+    public int getHourlySalary() {
+        return hourlySalary;
     }
+
+    public void setHourlySalary(int hourlySalary) {
+        this.hourlySalary = hourlySalary;
+    }
+
+    public int getAccumulatedHours() {
+        return accumulatedHours;
+    }
+
+    public void setAccumulatedHours(int accumulatedHours) {
+        this.accumulatedHours = accumulatedHours;
+    }
+
+    Temporary(int hourlySalary, int accumulatedHours) {
+        this.hourlySalary = hourlySalary;
+        this.accumulatedHours = accumulatedHours;
+    }
+    public float getFinalAmount() {
+        int finalAmount;
+        finalAmount = hourlySalary * accumulatedHours;
+        return finalAmount;
+    }
+
+    @Override
+    public String toString() {
+        String output;
+        output = ". he is temporary employee with " + getHourlySalary() + "\nhourly salary and he has worked for " + getAccumulatedHours() + " hours";
+        return output;
+    }
+
+
 }

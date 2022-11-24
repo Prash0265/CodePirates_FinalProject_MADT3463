@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Created contractInfo() method in Employee class">
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Code changes to fix some warnings in the subclases  and creating Permanent class objects in main file">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +46,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669272748809</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added Employee Class attributes">
-      <created>1669273802493</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1669273802493</updated>
     </task>
     <task id="LOCAL-00009" summary="Added getters and setters in Employee Class">
       <created>1669274024649</created>
@@ -391,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669316630151</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Code changes to fix some warnings in the subclases  and creating Permanent class objects in main file">
+      <created>1669316989606</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1669316989606</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a new interface for Contarct" />
     <MESSAGE value="Created a new class with name Permanent" />
     <MESSAGE value="Added getters and setters in Permanent class" />
     <MESSAGE value="Added parameterized constructor in Permanent class" />
@@ -431,6 +429,7 @@
     <MESSAGE value="Added getAnnualInco inme() method Programmer class" />
     <MESSAGE value="Created signContract method with no return type in Employee class" />
     <MESSAGE value="Created contractInfo() method in Employee class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created contractInfo() method in Employee class" />
+    <MESSAGE value="Code changes to fix some warnings in the subclases  and creating Permanent class objects in main file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code changes to fix some warnings in the subclases  and creating Permanent class objects in main file" />
   </component>
 </project>
