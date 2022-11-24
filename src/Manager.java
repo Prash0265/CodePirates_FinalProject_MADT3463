@@ -12,4 +12,12 @@ public class Manager extends Employee{
         System.out.println("We have a new employee: " + name + ", a " + getRole());
         bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
     }
+
+    public Manager(String name, int birthYear, int nbClients, int nbTravelDays, int rate, Vehicle employeeVehicle) {
+        super(name, birthYear, rate, "Manager", employeeVehicle);
+        this.nbClients = nbClients;
+        this.nbTravelDays = nbTravelDays;
+        System.out.println("We have a new employee: " + name + ", a " + getRole());
+        //bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
+    }
 }
