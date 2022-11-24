@@ -98,6 +98,8 @@ public class Employee {
         return output;
     }
 
-
+    public void signContract(Contract employeeContract) {
+        this.employeeContract = employeeContract;
+    }
 
 }
