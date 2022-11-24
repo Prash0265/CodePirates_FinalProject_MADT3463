@@ -18,6 +18,12 @@ public class Programmer extends Employee {
     }
 
     @Override
+    public float getAnnualIncome() {
+        bonus = GAIN_FACTOR_ERROR * nbProjects;
+        return bonus + super.getAnnualIncome();
+    }
+
+    @Override
     public String toString() {
         String output;
         output = super.toString();

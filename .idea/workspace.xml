@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Creatde a new method getAnnualIncome() in Employee class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added code to print Programmer class details">
+      <change beforePath="$PROJECT_DIR$/src/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,34 +46,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669272748809</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Created Employee Class">
-      <created>1669272965073</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1669272965073</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Created Manager Class">
-      <created>1669273200258</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1669273200258</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Created Tester Class">
-      <created>1669273239723</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1669273239723</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Created Programmer Class">
-      <created>1669273386283</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669273386284</updated>
     </task>
     <task id="LOCAL-00005" summary="Created Vehicle Class">
       <created>1669273461855</created>
@@ -391,7 +362,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669315540829</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Created getAnnualIncome() overriding in Manager class">
+      <created>1669315884202</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315884210</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Created getAnnualIncome() overriding in Tester class">
+      <created>1669315944548</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315944549</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Added code to print Tester class details">
+      <created>1669316059372</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1669316059374</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Added code to print Programmer class details">
+      <created>1669316120815</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1669316120815</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,10 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed main file for test 2" />
-    <MESSAGE value="Added function which will calculate and return employee age" />
-    <MESSAGE value="Added toString() method to print employee details" />
-    <MESSAGE value="Added Method overriding to toString() in Manager class" />
     <MESSAGE value="Added Method overriding to toString() in Car class" />
     <MESSAGE value="Added Method overriding to toString() in Motorcycle class" />
     <MESSAGE value="Added code to loop through the array and print deatils in main file" />
@@ -431,6 +426,10 @@
     <MESSAGE value="Added changes to show occupation rate accurately using gettesr and setters according to the given requirements" />
     <MESSAGE value="Creatde a new method getMonthlySalary() in Employee class" />
     <MESSAGE value="Creatde a new method getAnnualIncome() in Employee class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creatde a new method getAnnualIncome() in Employee class" />
+    <MESSAGE value="Created getAnnualIncome() overriding in Manager class" />
+    <MESSAGE value="Created getAnnualIncome() overriding in Tester class" />
+    <MESSAGE value="Added code to print Tester class details" />
+    <MESSAGE value="Added code to print Programmer class details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to print Programmer class details" />
   </component>
 </project>
