@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Assigning Employee objects to array" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Code changes to contract deatils of each employee." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,27 +44,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669272748809</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Added Tester class attributes and constructor">
-      <created>1669274905743</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1669274905744</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added Programmer class attributes and constructor">
-      <created>1669275051439</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1669275051439</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added Manager, tester and programmer objects in main file">
-      <created>1669275141702</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1669275141702</updated>
     </task>
     <task id="LOCAL-00015" summary="dded Vehicle class attributes and constructor">
       <created>1669275472272</created>
@@ -388,7 +367,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669317573478</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Code changes to print test case 3 output">
+      <created>1669317657314</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1669317657315</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Code changes to print missing annual income details of Manager class.">
+      <created>1669317797182</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1669317797183</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Code changes to contract deatils of each employee.">
+      <created>1669317917261</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1669317917263</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,9 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created new function getFinalAmount()" />
-    <MESSAGE value="Added code for getFinalAmount() method overriding" />
-    <MESSAGE value="Added toString() overriding in Permanent class" />
     <MESSAGE value="Created Temporary class" />
     <MESSAGE value="Added getters and setters Temporary class" />
     <MESSAGE value="Created a Temporary class constructor with parameters" />
@@ -428,6 +425,9 @@
     <MESSAGE value="Code changes to fix incorrect declaration of Temporary class" />
     <MESSAGE value="Added signContract method calling in main class" />
     <MESSAGE value="Assigning Employee objects to array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assigning Employee objects to array" />
+    <MESSAGE value="Code changes to print test case 3 output" />
+    <MESSAGE value="Code changes to print missing annual income details of Manager class." />
+    <MESSAGE value="Code changes to contract deatils of each employee." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code changes to contract deatils of each employee." />
   </component>
 </project>

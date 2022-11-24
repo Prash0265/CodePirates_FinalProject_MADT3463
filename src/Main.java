@@ -69,8 +69,8 @@ public class Main {
         employees[0] = Serge;
         employees[1] = Cindy;
         employees[2] = Paul;
-        employees[3] = Pierre;
-        employees[4] = Matt;
+        employees[3] = Matt;
+        employees[4] = Pierre;
         employees[5] = Sarah;
 
         for (int i =0;i<=length-1;i++) {
@@ -85,5 +85,17 @@ public class Main {
             System.out.println(employees[i].contractInfo()+employees[i].employeeContract);
         }
         System.out.println("-----------------------------------------------------");
+
+        Permanent p5 = new Permanent(1,  true,  5000,  200, 30);
+        Matt.signContract(p5);
+
+        System.out.println("CONTRACTS:");
+        System.out.println("-----------------------------------------------------");
+        for (int i =0;i<=length-1;i++) {
+            System.out.println(employees[i].contractInfo()+employees[i].employeeContract);
+        }
     }
+
+
+
 }
