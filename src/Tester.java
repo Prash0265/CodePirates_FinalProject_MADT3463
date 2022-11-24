@@ -9,4 +9,10 @@ public class Tester extends Employee {
         System.out.println("We have a new employee: " + name + ", a " + getRole());
 
     }
+    public Tester(String name, int birthYear, int nbBugs, int rate,Vehicle employeeVehicle) {
+        super(name, birthYear, rate, "Tester", employeeVehicle);
+        this.nbBugs = nbBugs;
+        System.out.println("We have a new employee: " + name + ", a " + getRole());
+
+    }
 }
