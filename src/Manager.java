@@ -20,4 +20,13 @@ public class Manager extends Employee{
         System.out.println("We have a new employee: " + name + ", a " + getRole());
         //bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
     }
+
+    @Override
+    public String toString() {
+        String output;
+        output = super.toString();
+        output += "He/She travelled " + nbTravelDays + " days and has brought " + nbClients + " new clients." + "\n";
+       // output += "His/Her estimated annual income is " + getAnnualIncome();
+        return output;
+    }
 }

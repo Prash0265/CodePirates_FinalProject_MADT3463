@@ -86,4 +86,5 @@ public class Employee {
         output += getName() + " has an Occupation rate: " + getRate() + "%. ";
         return output;
     }
+
 }

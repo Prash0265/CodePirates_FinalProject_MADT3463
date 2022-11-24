@@ -26,5 +26,13 @@ public class Main {
         employees[3] = new Tester("Pierre", 1987, 124, 50,v4 );
         employees[4] = new Programmer("Matt", 1981, 5 , 110,v5);
         employees[5] = new Programmer("Sarah", 1986, 3 , 100,v6);
+
+        System.out.println("-----------------------------------------------------");
+        System.out.println("Employee description:");
+        for (int i =0;i<=length-1;i++) {
+            System.out.println(employees[i]);
+            System.out.println("-----------------------------------------------------");
+            System.out.println("-----------------------------------------------------");
+        }
     }
 }
