@@ -76,6 +76,15 @@ public class Employee {
         return age;
     }
 
+    public float getMonthlySalary() {
+        float monthlySalary = 0;
+        if (employeeContract != null) {
+            monthlySalary = employeeContract.getFinalAmount();
+        }
+        monthlySalary *= getRate()/100f;
+        return monthlySalary;
+    }
+
     public String toString() {
         String output;
         output = "Name: " + getName() + "\n";

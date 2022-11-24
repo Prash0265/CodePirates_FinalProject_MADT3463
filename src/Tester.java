@@ -13,7 +13,7 @@ public class Tester extends Employee {
         super(name, birthYear, rate, "Tester", employeeVehicle);
         this.nbBugs = nbBugs;
         System.out.println("We have a new employee: " + name + ", a " + getRole());
-
     }
+
 
 }
