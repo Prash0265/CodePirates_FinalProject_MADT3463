@@ -54,4 +54,12 @@ class Permanent implements Contract {
         this.bonusPerChildPerMonth = bonusPerChildPerMonth;
         this.accumulatedDays = accumulatedDays;
     }
+
+    public float getFinalAmount() {
+        int finalAmount = monthlySalary;
+        if (isMarried()) {
+            finalAmount += (nbChildren * bonusPerChildPerMonth);
+        }
+        return finalAmount * accumulatedDays / 20;
+    }
 }
