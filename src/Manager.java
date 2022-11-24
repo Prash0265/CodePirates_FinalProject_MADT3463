@@ -25,6 +25,7 @@ public class Manager extends Employee{
         String output;
         output = super.toString();
         output += "He/She travelled " + nbTravelDays + " days and has brought " + nbClients + " new clients." + "\n";
+        output += "His/Her estimated annual income is " + getAnnualIncome();
         return output;
     }
 
