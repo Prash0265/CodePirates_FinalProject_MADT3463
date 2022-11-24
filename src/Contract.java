@@ -47,4 +47,11 @@ class Permanent implements Contract {
         this.accumulatedDays = accumulatedDays;
     }
 
+    Permanent(int nbChildren, boolean married, int monthlySalary, int bonusPerChildPerMonth, int accumulatedDays) {
+        this.nbChildren = nbChildren;
+        this.married = married;
+        this.monthlySalary = monthlySalary;
+        this.bonusPerChildPerMonth = bonusPerChildPerMonth;
+        this.accumulatedDays = accumulatedDays;
+    }
 }
