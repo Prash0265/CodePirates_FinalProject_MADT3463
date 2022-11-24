@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added toString() method to print employee details">
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added Method overriding to toString() in Car class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669278378705</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added Method overriding to toString() in Manager class">
+      <created>1669278881165</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669278881165</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added Method overriding to toString() in Car class">
+      <created>1669279075476</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1669279075476</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,8 +264,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Tester Class" />
-    <MESSAGE value="Created Programmer Class" />
     <MESSAGE value="Created Vehicle Class" />
     <MESSAGE value="Created Car Class" />
     <MESSAGE value="Created Motorcycle Class" />
@@ -277,6 +287,8 @@
     <MESSAGE value="Changed main file for test 2" />
     <MESSAGE value="Added function which will calculate and return employee age" />
     <MESSAGE value="Added toString() method to print employee details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added toString() method to print employee details" />
+    <MESSAGE value="Added Method overriding to toString() in Manager class" />
+    <MESSAGE value="Added Method overriding to toString() in Car class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Method overriding to toString() in Car class" />
   </component>
 </project>
