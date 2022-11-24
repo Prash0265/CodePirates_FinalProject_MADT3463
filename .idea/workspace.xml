@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Created Employee Class" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Created Vehicle Class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +51,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669272965073</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created Manager Class">
+      <created>1669273200258</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669273200258</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created Tester Class">
+      <created>1669273239723</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669273239723</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created Programmer Class">
+      <created>1669273386283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669273386284</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created Vehicle Class">
+      <created>1669273461855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669273461855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +95,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Employee Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Employee Class" />
+    <MESSAGE value="Created Manager Class" />
+    <MESSAGE value="Created Tester Class" />
+    <MESSAGE value="Created Programmer Class" />
+    <MESSAGE value="Created Vehicle Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Vehicle Class" />
   </component>
 </project>
