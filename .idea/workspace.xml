@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added Constructor in Employee and manager" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added Manager, tester and programmer objects in main file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +125,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669274734146</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Tester class attributes and constructor">
+      <created>1669274905743</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669274905744</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Programmer class attributes and constructor">
+      <created>1669275051439</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669275051439</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Manager, tester and programmer objects in main file">
+      <created>1669275141702</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669275141702</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +172,9 @@
     <MESSAGE value="Added getters and setters in Employee Class" />
     <MESSAGE value="Added Manager attributes and employee array" />
     <MESSAGE value="Added Constructor in Employee and manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Constructor in Employee and manager" />
+    <MESSAGE value="Added Tester class attributes and constructor" />
+    <MESSAGE value="Added Programmer class attributes and constructor" />
+    <MESSAGE value="Added Manager, tester and programmer objects in main file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Manager, tester and programmer objects in main file" />
   </component>
 </project>
