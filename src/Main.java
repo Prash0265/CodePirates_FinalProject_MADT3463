@@ -20,11 +20,11 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("Test 2:");
-//        employees[0] = new Manager("Serge", 1985, 30, 4, 100,v1);
-//        employees[1] = new Manager("Cindy", 1974, 20 , 6, 80,v2) ;
-//        employees[2] = new Programmer("Paul", 1993, 3,  75,v3);
-//        employees[3] = new Tester("Pierre", 1987, 124, 50,v4 );
-//        employees[4] = new Programmer("Matt", 1981, 5 , 110,v5);
-//        employees[5] = new Programmer("Sarah", 1986, 3 , 100,v6);
+        employees[0] = new Manager("Serge", 1985, 30, 4, 100,v1);
+        employees[1] = new Manager("Cindy", 1974, 20 , 6, 80,v2) ;
+        employees[2] = new Programmer("Paul", 1993, 3,  75,v3);
+        employees[3] = new Tester("Pierre", 1987, 124, 50,v4 );
+        employees[4] = new Programmer("Matt", 1981, 5 , 110,v5);
+        employees[5] = new Programmer("Sarah", 1986, 3 , 100,v6);
     }
 }
