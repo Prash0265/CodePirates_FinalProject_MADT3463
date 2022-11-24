@@ -93,6 +93,11 @@ class Permanent implements Contract {
             this.accumulatedHours = accumulatedHours;
         }
 
+        Temporary(int hourlySalary, int accumulatedHours) {
+            this.hourlySalary = hourlySalary;
+            this.accumulatedHours = accumulatedHours;
+        }
+
 
 
     }
