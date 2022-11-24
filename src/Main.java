@@ -27,13 +27,6 @@ public class Main {
         employees[4] = new Programmer("Matt", 1981, 5 , 110,v5);
         employees[5] = new Programmer("Sarah", 1986, 3 , 100,v6);
 
-
-//        System.out.println(employees[1]);
-//        System.out.println(employees[2]);
-//        System.out.println(employees[3]);
-//        System.out.println(employees[4]);
-//        System.out.println(employees[5]);
-//        System.out.println(employees[6]);
         System.out.println("-----------------------------------------------------");
         System.out.println("Employee description:");
         for (int i =0;i<=length-1;i++) {
