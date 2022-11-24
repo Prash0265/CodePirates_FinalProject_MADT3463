@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Changed matt from Temporary to Permanent employee and again print the new contract details of each employee" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Fixed the incorrect code in Permanent clas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,13 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669272748809</updated>
-    </task>
-    <task id="LOCAL-00016" summary="dded Car class attributes and constructor">
-      <created>1669275592915</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1669275592915</updated>
     </task>
     <task id="LOCAL-00017" summary="dded Motorcycle class attributes and constructor">
       <created>1669275652466</created>
@@ -388,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669318229568</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Fixed the incorrect code in Permanent clas">
+      <created>1669318366080</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1669318366084</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +409,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added getters and setters Temporary class" />
     <MESSAGE value="Created a Temporary class constructor with parameters" />
     <MESSAGE value="Created getFinalAmount() methos in Temporary class" />
     <MESSAGE value="Added toString() overriding in Temporary class" />
@@ -428,6 +433,7 @@
     <MESSAGE value="Code changes to print missing annual income details of Manager class." />
     <MESSAGE value="Code changes to contract deatils of each employee." />
     <MESSAGE value="Changed matt from Temporary to Permanent employee and again print the new contract details of each employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed matt from Temporary to Permanent employee and again print the new contract details of each employee" />
+    <MESSAGE value="Fixed the incorrect code in Permanent clas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the incorrect code in Permanent clas" />
   </component>
 </project>

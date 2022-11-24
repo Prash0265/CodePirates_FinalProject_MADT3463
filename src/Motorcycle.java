@@ -10,11 +10,8 @@ public class Motorcycle extends Vehicle {
     @Override
     public String toString() {
         String vehicleDescription;
-        vehicleDescription = "\t - make:"+getMake()+"\n";
-        vehicleDescription += "\t - plate:"+getPlate()+"\n";
-        vehicleDescription += "\t - color:"+getColor()+"\n";
-        vehicleDescription += "\t - category:"+getCategory()+"\n";
+        vehicleDescription = super.toString();
         vehicleDescription += "\t - sidecar:"+sidecar+"\n";
-        return super.toString()+ "Employee has a car: \n" + vehicleDescription;
+        return "Employee has a car: \n" + vehicleDescription;
     }
 }

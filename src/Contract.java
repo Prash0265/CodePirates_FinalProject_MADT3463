@@ -68,7 +68,7 @@ class Permanent implements Contract {
     public String toString() {
         String output;
         //output = super.toString();
-        output = ". he is Married" + " and he/she has " + getNbChildren() + " children.\nHe/She has worked for " + getAccumulatedDays() + " days and upon contract his/her monthly salary is " + getMonthlySalary();
+        output = ". he/she is Married" + " and he/she has " + getNbChildren() + " children.\nHe/She has worked for " + getAccumulatedDays() + " days and upon contract his/her monthly salary is " + getMonthlySalary();
         return output;
     }
 
@@ -107,7 +107,7 @@ class Temporary implements Contract {
     @Override
     public String toString() {
         String output;
-        output = ". he is temporary employee with " + getHourlySalary() + "\nhourly salary and he has worked for " + getAccumulatedHours() + " hours";
+        output = ". he/she is temporary employee with " + getHourlySalary() + "\nhourly salary and he has worked for " + getAccumulatedHours() + " hours";
         return output;
     }
 

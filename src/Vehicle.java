@@ -43,6 +43,11 @@ public class Vehicle {
     }
 
     public String toString() {
-        return "";
+        String vehicleDescription;
+        vehicleDescription = "\t - make:"+getMake()+"\n";
+        vehicleDescription += "\t - plate:"+getPlate()+"\n";
+        vehicleDescription += "\t - color:"+getColor()+"\n";
+        vehicleDescription += "\t - category:"+getCategory()+"\n";
+        return vehicleDescription;
     }
 }
