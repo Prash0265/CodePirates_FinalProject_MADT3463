@@ -89,14 +89,7 @@ public class Employee {
         return getMonthlySalary() * 12;
     }
 
-    public String toString() {
-        String output;
-        output = "Name: " + getName() + "\n";
-        output += "Age: " + employeeAge() + "\n";
-        output += employeeVehicle.toString();
-        output += getName() + " has an Occupation rate: " + getRate() + "%. ";
-        return output;
-    }
+
 
     public void signContract(Contract employeeContract) {
         this.employeeContract = employeeContract;
@@ -105,5 +98,14 @@ public class Employee {
 
     public String contractInfo() {
         return getName() + " is a " + getRole();
+    }
+
+    public String toString() {
+        String output;
+        output = "Name: " + getName() + "\n";
+        output += "Age: " + employeeAge() + "\n";
+        output += employeeVehicle.toString();
+        output += getName() + " has an Occupation rate: " + getRate() + "%. ";
+        return output;
     }
 }

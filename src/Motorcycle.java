@@ -7,11 +7,15 @@ public class Motorcycle extends Vehicle {
 
     }
 
+
     @Override
     public String toString() {
         String vehicleDescription;
         vehicleDescription = super.toString();
-        vehicleDescription += "\t - sidecar:"+sidecar+"\n";
-        return "Employee has a car: \n" + vehicleDescription;
+        if (sidecar) {
+            vehicleDescription += "\t - with sidecar\n";
+        }
+        else vehicleDescription += "\t - without sidecar\n";
+        return "Employee has a Motorcycle: \n" + vehicleDescription;
     }
 }

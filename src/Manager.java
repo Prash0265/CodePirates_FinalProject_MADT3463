@@ -20,6 +20,14 @@ public class Manager extends Employee{
         System.out.println("We have a new employee: " + name + ", a " + getRole());
     }
 
+
+
+    @Override
+    public float getAnnualIncome() {
+        bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
+        return bonus + super.getAnnualIncome();
+    }
+
     @Override
     public String toString() {
         String output;
@@ -27,11 +35,5 @@ public class Manager extends Employee{
         output += "He/She travelled " + nbTravelDays + " days and has brought " + nbClients + " new clients." + "\n";
         output += "His/Her estimated annual income is " + getAnnualIncome();
         return output;
-    }
-
-    @Override
-    public float getAnnualIncome() {
-        bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
-        return bonus + super.getAnnualIncome();
     }
 }
