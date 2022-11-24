@@ -97,6 +97,12 @@ class Permanent implements Contract {
             this.hourlySalary = hourlySalary;
             this.accumulatedHours = accumulatedHours;
         }
+        public float getFinalAmount() {
+            int finalAmount;
+            finalAmount = hourlySalary * accumulatedHours;
+            return finalAmount;
+        }
+
 
 
 

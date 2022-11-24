@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added code for getFinalAmount() method overriding" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Created a Temporary class constructor with parameters" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,7 +304,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669314064446</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Added toString() overriding in Permanent class">
+      <created>1669314198035</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314198036</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Created Temporary class">
+      <created>1669314308783</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314308783</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Added getters and setters Temporary class">
+      <created>1669314381993</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314381993</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Created a Temporary class constructor with parameters">
+      <created>1669314446087</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314446087</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,10 +347,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Programmer class attributes and constructor" />
-    <MESSAGE value="Added Manager, tester and programmer objects in main file" />
-    <MESSAGE value="dded Vehicle class attributes and constructor" />
-    <MESSAGE value="dded Car class attributes and constructor" />
     <MESSAGE value="dded Motorcycle class attributes and constructor" />
     <MESSAGE value="dded getters ans setters in Vehicle class" />
     <MESSAGE value="Added getters ans setters in Vehicle class" />
@@ -344,6 +368,10 @@
     <MESSAGE value="Added parameterized constructor in Permanent class" />
     <MESSAGE value="Created new function getFinalAmount()" />
     <MESSAGE value="Added code for getFinalAmount() method overriding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code for getFinalAmount() method overriding" />
+    <MESSAGE value="Added toString() overriding in Permanent class" />
+    <MESSAGE value="Created Temporary class" />
+    <MESSAGE value="Added getters and setters Temporary class" />
+    <MESSAGE value="Created a Temporary class constructor with parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a Temporary class constructor with parameters" />
   </component>
 </project>
