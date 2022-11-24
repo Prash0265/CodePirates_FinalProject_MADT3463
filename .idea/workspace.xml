@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Created Vehicle Class" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added Employee Class attributes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +79,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669273461855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created Car Class">
+      <created>1669273590840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669273590840</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created Motorcycle Class">
+      <created>1669273692488</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669273692488</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Employee Class attributes">
+      <created>1669273802493</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669273802493</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +120,9 @@
     <MESSAGE value="Created Tester Class" />
     <MESSAGE value="Created Programmer Class" />
     <MESSAGE value="Created Vehicle Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Vehicle Class" />
+    <MESSAGE value="Created Car Class" />
+    <MESSAGE value="Created Motorcycle Class" />
+    <MESSAGE value="Added Employee Class attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Employee Class attributes" />
   </component>
 </project>
