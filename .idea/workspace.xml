@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added getters and setters in Permanent class" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added code for getFinalAmount() method overriding" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -283,7 +283,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669313799543</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added parameterized constructor in Permanent class">
+      <created>1669313879375</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1669313879375</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Created new function getFinalAmount()">
+      <created>1669313956087</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1669313956087</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added code for getFinalAmount() method overriding">
+      <created>1669314064446</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314064446</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,9 +319,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Manager attributes and employee array" />
-    <MESSAGE value="Added Constructor in Employee and manager" />
-    <MESSAGE value="Added Tester class attributes and constructor" />
     <MESSAGE value="Added Programmer class attributes and constructor" />
     <MESSAGE value="Added Manager, tester and programmer objects in main file" />
     <MESSAGE value="dded Vehicle class attributes and constructor" />
@@ -323,6 +341,9 @@
     <MESSAGE value="Created a new interface for Contarct" />
     <MESSAGE value="Created a new class with name Permanent" />
     <MESSAGE value="Added getters and setters in Permanent class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getters and setters in Permanent class" />
+    <MESSAGE value="Added parameterized constructor in Permanent class" />
+    <MESSAGE value="Created new function getFinalAmount()" />
+    <MESSAGE value="Added code for getFinalAmount() method overriding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code for getFinalAmount() method overriding" />
   </component>
 </project>

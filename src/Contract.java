@@ -63,4 +63,12 @@ class Permanent implements Contract {
         }
         return finalAmount * accumulatedDays / 20;
     }
+
+    @Override
+    public String toString() {
+        String output;
+        //output = super.toString();
+        output = ". he is " + isMarried() + " and he/she has " + getNbChildren() + " children.\nHe/She has worked for " + getAccumulatedDays() + " days and upon contract his/her monthly salary is " + getMonthlySalary();
+        return output;
+    }
 }
