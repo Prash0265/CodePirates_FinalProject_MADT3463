@@ -9,4 +9,11 @@ public class Programmer extends Employee {
         System.out.println("We have a new employee: " + name + ", a " + getRole());
 
     }
+
+    public Programmer(String name, int birthYear, int nbProjects, int rate,Vehicle employeeVehicle) {
+        super(name, birthYear, rate, "Programmer",employeeVehicle);
+        this.nbProjects = nbProjects;
+        System.out.println("We have a new employee: " + name + ", a " + getRole());
+
+    }
 }
