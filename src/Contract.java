@@ -1,4 +1,5 @@
 public interface Contract {
+    float getFinalAmount();
 }
 class Permanent implements Contract {
     int nbChildren;
