@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added Manager attributes and employee array">
-      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
-    </list>
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added Constructor in Employee and manager" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669274380054</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Constructor in Employee and manager">
+      <created>1669274734145</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669274734146</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +146,7 @@
     <MESSAGE value="Added Employee Class attributes" />
     <MESSAGE value="Added getters and setters in Employee Class" />
     <MESSAGE value="Added Manager attributes and employee array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Manager attributes and employee array" />
+    <MESSAGE value="Added Constructor in Employee and manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Constructor in Employee and manager" />
   </component>
 </project>
