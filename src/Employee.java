@@ -85,6 +85,10 @@ public class Employee {
         return monthlySalary;
     }
 
+    public float getAnnualIncome() {
+        return getMonthlySalary() * 12;
+    }
+
     public String toString() {
         String output;
         output = "Name: " + getName() + "\n";
@@ -93,5 +97,7 @@ public class Employee {
         output += getName() + " has an Occupation rate: " + getRate() + "%. ";
         return output;
     }
+
+
 
 }
