@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Code changes to contract deatils of each employee." />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Changed matt from Temporary to Permanent employee and again print the new contract details of each employee" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,13 +44,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669272748809</updated>
-    </task>
-    <task id="LOCAL-00015" summary="dded Vehicle class attributes and constructor">
-      <created>1669275472272</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1669275472272</updated>
     </task>
     <task id="LOCAL-00016" summary="dded Car class attributes and constructor">
       <created>1669275592915</created>
@@ -388,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669317917263</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Changed matt from Temporary to Permanent employee and again print the new contract details of each employee">
+      <created>1669318229567</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1669318229568</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Temporary class" />
     <MESSAGE value="Added getters and setters Temporary class" />
     <MESSAGE value="Created a Temporary class constructor with parameters" />
     <MESSAGE value="Created getFinalAmount() methos in Temporary class" />
@@ -428,6 +427,7 @@
     <MESSAGE value="Code changes to print test case 3 output" />
     <MESSAGE value="Code changes to print missing annual income details of Manager class." />
     <MESSAGE value="Code changes to contract deatils of each employee." />
-    <option name="LAST_COMMIT_MESSAGE" value="Code changes to contract deatils of each employee." />
+    <MESSAGE value="Changed matt from Temporary to Permanent employee and again print the new contract details of each employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed matt from Temporary to Permanent employee and again print the new contract details of each employee" />
   </component>
 </project>

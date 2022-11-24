@@ -68,11 +68,9 @@ class Permanent implements Contract {
     public String toString() {
         String output;
         //output = super.toString();
-        output = ". he is " + isMarried() + " and he/she has " + getNbChildren() + " children.\nHe/She has worked for " + getAccumulatedDays() + " days and upon contract his/her monthly salary is " + getMonthlySalary();
+        output = ". he is Married" + " and he/she has " + getNbChildren() + " children.\nHe/She has worked for " + getAccumulatedDays() + " days and upon contract his/her monthly salary is " + getMonthlySalary();
         return output;
     }
-
-
 
 }
 
