@@ -77,4 +77,13 @@ public class Employee {
         age = currentYear - birthYear;
         return age;
     }
+
+    public String toString() {
+        String output;
+        output = "Name: " + getName() + "\n";
+        output += "Age: " + employeeAge() + "\n";
+        output += employeeVehicle.toString();
+        output += getName() + " has an Occupation rate: " + getRate() + "%. ";
+        return output;
+    }
 }
