@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Created a variable employeeContract of type contract, made changes in all three employee subclasses to show data correctly" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Creatde a new method getAnnualIncome() in Employee class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -367,7 +370,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669315221033</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Added changes to show occupation rate accurately using gettesr and setters according to the given requirements">
+      <created>1669315331895</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315331895</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Creatde a new method getMonthlySalary() in Employee class">
+      <created>1669315470913</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315470913</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Creatde a new method getAnnualIncome() in Employee class">
+      <created>1669315540827</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669315540829</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,9 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Car and Motorcycle objects in main file" />
-    <MESSAGE value="Added New constructor in Tester class with vehicle input" />
-    <MESSAGE value="Added New constructor in Programmer class with vehicle input" />
     <MESSAGE value="Changed main file for test 2" />
     <MESSAGE value="Added function which will calculate and return employee age" />
     <MESSAGE value="Added toString() method to print employee details" />
@@ -407,6 +428,9 @@
     <MESSAGE value="Replaced the direct calling of employees array with for loop calling" />
     <MESSAGE value="Added code to show the output of test case 3" />
     <MESSAGE value="Created a variable employeeContract of type contract, made changes in all three employee subclasses to show data correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a variable employeeContract of type contract, made changes in all three employee subclasses to show data correctly" />
+    <MESSAGE value="Added changes to show occupation rate accurately using gettesr and setters according to the given requirements" />
+    <MESSAGE value="Creatde a new method getMonthlySalary() in Employee class" />
+    <MESSAGE value="Creatde a new method getAnnualIncome() in Employee class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creatde a new method getAnnualIncome() in Employee class" />
   </component>
 </project>

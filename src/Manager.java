@@ -27,4 +27,10 @@ public class Manager extends Employee{
         output += "He/She travelled " + nbTravelDays + " days and has brought " + nbClients + " new clients." + "\n";
         return output;
     }
+
+    @Override
+    public float getAnnualIncome() {
+        bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
+        return bonus + super.getAnnualIncome();
+    }
 }
