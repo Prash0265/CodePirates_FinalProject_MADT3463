@@ -72,5 +72,11 @@ public class Main {
         employees[3] = Pierre;
         employees[4] = Matt;
         employees[5] = Sarah;
+
+        for (int i =0;i<=length-1;i++) {
+            System.out.println("-----------------------------------------------------");
+            System.out.println(employees[i]);
+            System.out.println("-----------------------------------------------------");
+        }
     }
 }

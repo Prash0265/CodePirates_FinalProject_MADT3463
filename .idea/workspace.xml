@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Code changes to fix some warnings in the subclases  and creating Permanent class objects in main file">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Assigning Employee objects to array" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,27 +44,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669272748809</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added getters and setters in Employee Class">
-      <created>1669274024649</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1669274024650</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added Manager attributes and employee array">
-      <created>1669274380053</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1669274380054</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added Constructor in Employee and manager">
-      <created>1669274734145</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1669274734146</updated>
     </task>
     <task id="LOCAL-00012" summary="Added Tester class attributes and constructor">
       <created>1669274905743</created>
@@ -390,7 +367,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669316989606</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Code changes to fix incorrect declaration of Temporary class">
+      <created>1669317331174</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1669317331176</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Added signContract method calling in main class">
+      <created>1669317460467</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1669317460470</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Assigning Employee objects to array">
+      <created>1669317573477</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1669317573478</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,9 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created a new class with name Permanent" />
-    <MESSAGE value="Added getters and setters in Permanent class" />
-    <MESSAGE value="Added parameterized constructor in Permanent class" />
     <MESSAGE value="Created new function getFinalAmount()" />
     <MESSAGE value="Added code for getFinalAmount() method overriding" />
     <MESSAGE value="Added toString() overriding in Permanent class" />
@@ -430,6 +425,9 @@
     <MESSAGE value="Created signContract method with no return type in Employee class" />
     <MESSAGE value="Created contractInfo() method in Employee class" />
     <MESSAGE value="Code changes to fix some warnings in the subclases  and creating Permanent class objects in main file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code changes to fix some warnings in the subclases  and creating Permanent class objects in main file" />
+    <MESSAGE value="Code changes to fix incorrect declaration of Temporary class" />
+    <MESSAGE value="Added signContract method calling in main class" />
+    <MESSAGE value="Assigning Employee objects to array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assigning Employee objects to array" />
   </component>
 </project>
