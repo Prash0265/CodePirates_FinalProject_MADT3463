@@ -10,5 +10,16 @@ public class Car extends Vehicle {
 
     }
 
+    @Override
+    public String toString() {
+        String vehicleDescription;
+        vehicleDescription = "\t - make:"+getMake()+"\n";
+        vehicleDescription += "\t - plate:"+getPlate()+"\n";
+        vehicleDescription += "\t - color:"+getColor()+"\n";
+        vehicleDescription += "\t - category:"+getCategory()+"\n";
+        vehicleDescription += "\t - gear type:"+gear+"\n";
+        vehicleDescription += "\t - type:"+type+"\n";
+        return super.toString()+ "Employee has a car: \n" + vehicleDescription;
+    }
 
 }
