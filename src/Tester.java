@@ -15,9 +15,19 @@ public class Tester extends Employee {
         System.out.println("We have a new employee: " + name + ", a " + getRole());
     }
 
+
     @Override
     public float getAnnualIncome() {
         bonus = GAIN_FACTOR_ERROR * nbBugs;
         return bonus + super.getAnnualIncome();
+    }
+
+    @Override
+    public String toString() {
+        String output;
+        output = super.toString();
+        output += "and corrected " + nbBugs + " bugs." + "\n";
+        output += "His/Her estimated annual income is " + getAnnualIncome();
+        return output;
     }
 }
