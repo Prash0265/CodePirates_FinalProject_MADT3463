@@ -65,5 +65,12 @@ public class Main {
         Matt.signContract(t2);
         Pierre.signContract(p3);
         Sarah.signContract(p4);
+
+        employees[0] = Serge;
+        employees[1] = Cindy;
+        employees[2] = Paul;
+        employees[3] = Pierre;
+        employees[4] = Matt;
+        employees[5] = Sarah;
     }
 }
