@@ -18,7 +18,6 @@ public class Manager extends Employee{
         this.nbClients = nbClients;
         this.nbTravelDays = nbTravelDays;
         System.out.println("We have a new employee: " + name + ", a " + getRole());
-        //bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
     }
 
     @Override

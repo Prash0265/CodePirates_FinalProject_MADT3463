@@ -20,9 +20,7 @@ public class Employee {
         } else {
             this.rate = rate;
         }
-        //this.rate = rate;
         this.role = role;
-        //this.employeeVehicle= employeeVehicle;
     }
 
     public Employee(String name, int birthYear, int rate, String role, Vehicle employeeVehicle) {
