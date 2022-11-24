@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="dded getters ans setters in Vehicle class" />
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Added getters ans setters in Vehicle class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669275731470</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added getters ans setters in Vehicle class">
+      <created>1669276061164</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669276061164</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +210,7 @@
     <MESSAGE value="dded Car class attributes and constructor" />
     <MESSAGE value="dded Motorcycle class attributes and constructor" />
     <MESSAGE value="dded getters ans setters in Vehicle class" />
-    <option name="LAST_COMMIT_MESSAGE" value="dded getters ans setters in Vehicle class" />
+    <MESSAGE value="Added getters ans setters in Vehicle class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getters ans setters in Vehicle class" />
   </component>
 </project>
