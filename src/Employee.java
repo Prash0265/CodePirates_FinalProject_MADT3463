@@ -1,3 +1,5 @@
+import java.util.Calendar;
+
 public class Employee {
     private String name;
     private int birthYear;
@@ -67,5 +69,12 @@ public class Employee {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public int employeeAge() {
+        int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+        int age;
+        age = currentYear - birthYear;
+        return age;
     }
 }
