@@ -22,6 +22,7 @@ public class Tester extends Employee {
         return bonus + super.getAnnualIncome();
     }
 
+
     @Override
     public String toString() {
         String output;
