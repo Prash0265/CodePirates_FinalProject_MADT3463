@@ -103,7 +103,12 @@ class Permanent implements Contract {
             return finalAmount;
         }
 
-
+        @Override
+        public String toString() {
+            String output;
+            output = ". he is temporary employee with " + getHourlySalary() + "\nhourly salary and he has worked for " + getAccumulatedHours() + " hours";
+            return output;
+        }
 
 
     }
