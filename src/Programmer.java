@@ -16,4 +16,13 @@ public class Programmer extends Employee {
         System.out.println("We have a new employee: " + name + ", a " + getRole());
 
     }
+
+    @Override
+    public String toString() {
+        String output;
+        output = super.toString();
+        output += "and completed " + nbProjects + " projects." + "\n";
+        output += "His/Her estimated annual income is " + getAnnualIncome();
+        return output;
+    }
 }
