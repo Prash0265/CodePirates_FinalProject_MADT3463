@@ -4,9 +4,10 @@ public class Programmer extends Employee {
     int bonus;
 
     public Programmer(String name, int birthYear, int nbProjects, int rate) {
-        super(name, birthYear, rate, "Programmer");
-        this.nbProjects = nbProjects;
-        System.out.println("We have a new employee: " + name + ", a " + getRole());
+        this(name, birthYear,nbProjects, rate, null);
+//        super(name, birthYear, rate, "Programmer");
+//        this.nbProjects = nbProjects;
+//        System.out.println("We have a new employee: " + name + ", a " + getRole());
 
     }
 

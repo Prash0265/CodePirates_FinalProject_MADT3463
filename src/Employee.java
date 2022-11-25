@@ -23,17 +23,19 @@ public class Employee {
         this.role = role;
     }
 
+
     public Employee(String name, int birthYear, int rate, String role, Vehicle employeeVehicle) {
-        this.name = name;
-        this.birthYear = birthYear;
-        if (rate > 100) {
-            this.rate = 100;
-        } else if (rate < 10) {
-            this.rate = 10;
-        } else {
-            this.rate = rate;
-        }
-        this.role = role;
+        this(name, birthYear, rate, role);
+//        this.name = name;
+//        this.birthYear = birthYear;
+//        if (rate > 100) {
+//            this.rate = 100;
+//        } else if (rate < 10) {
+//            this.rate = 10;
+//        } else {
+//            this.rate = rate;
+//        }
+//        this.role = role;
         this.employeeVehicle = employeeVehicle;
     }
 

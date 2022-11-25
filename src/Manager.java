@@ -6,11 +6,12 @@ public class Manager extends Employee{
     int bonus;
 
     public Manager(String name, int birthYear, int nbClients, int nbTravelDays, int rate) {
-        super(name, birthYear, rate, "Manager");
-        this.nbClients = nbClients;
-        this.nbTravelDays = nbTravelDays;
-        System.out.println("We have a new employee: " + name + ", a " + getRole());
-        bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
+        this(name, birthYear,nbClients,nbTravelDays, rate, null);
+//        super(name, birthYear, rate, "Manager");
+//        this.nbClients = nbClients;
+//        this.nbTravelDays = nbTravelDays;
+//        System.out.println("We have a new employee: " + name + ", a " + getRole());
+        //bonus = GAIN_FACTOR_CLIENT * nbClients + GAIN_FACTOR_TRAVEL * nbTravelDays;
     }
 
     public Manager(String name, int birthYear, int nbClients, int nbTravelDays, int rate, Vehicle employeeVehicle) {

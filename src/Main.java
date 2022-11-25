@@ -45,12 +45,7 @@ public class Main {
         Employee Matt = new Programmer("Matt", 1981, 5 , 110,v4);
         Employee Sarah = new Programmer("Sarah", 1986, 3 , 100,v3);
 
-        System.out.println("-----------------------------------------------------");
-        for (int i =0;i<=length-1;i++) {
-            System.out.println(employees[i]);
-            System.out.println("-----------------------------------------------------");
-            System.out.println("-----------------------------------------------------");
-        }
+
 
         Permanent p1 = new Permanent(2,true,6000,200,17);
         Permanent p2 = new Permanent(3,  false, 5000,  150,  19);
@@ -72,12 +67,12 @@ public class Main {
         employees[3] = Matt;
         employees[4] = Pierre;
         employees[5] = Sarah;
-
-//        for (int i =0;i<=length-1;i++) {
-//            System.out.println("-----------------------------------------------------");
-//            System.out.println(employees[i]);
-//            System.out.println("-----------------------------------------------------");
-//        }
+        System.out.println("-----------------------------------------------------");
+        for (int i =0;i<=length-1;i++) {
+            System.out.println(employees[i]);
+            System.out.println("-----------------------------------------------------");
+            System.out.println("-----------------------------------------------------");
+        }
 
         System.out.println("CONTRACTS:");
         System.out.println("-----------------------------------------------------");

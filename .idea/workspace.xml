@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Made changes to reduce code redundancy in Vehicle,Car and Motorcycle classes">
+    <list default="true" id="3fe5410a-7a38-47d8-b7cb-b205e3d5cffa" name="Changes" comment="Removed redundant for loop from main class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669272748809</updated>
-    </task>
-    <task id="LOCAL-00018" summary="dded getters ans setters in Vehicle class">
-      <created>1669275731470</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1669275731470</updated>
     </task>
     <task id="LOCAL-00019" summary="Added getters ans setters in Vehicle class">
       <created>1669276061164</created>
@@ -394,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669328467953</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Removed redundant for loop from main class">
+      <created>1669330965212</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1669330965214</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created getFinalAmount() methos in Temporary class" />
     <MESSAGE value="Added toString() overriding in Temporary class" />
     <MESSAGE value="Replaced the direct calling of employees array with for loop calling" />
     <MESSAGE value="Added code to show the output of test case 3" />
@@ -434,6 +434,7 @@
     <MESSAGE value="Changed matt from Temporary to Permanent employee and again print the new contract details of each employee" />
     <MESSAGE value="Fixed the incorrect code in Permanent clas" />
     <MESSAGE value="Made changes to reduce code redundancy in Vehicle,Car and Motorcycle classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made changes to reduce code redundancy in Vehicle,Car and Motorcycle classes" />
+    <MESSAGE value="Removed redundant for loop from main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant for loop from main class" />
   </component>
 </project>

@@ -4,9 +4,10 @@ public class Tester extends Employee {
     int bonus;
 
     public Tester(String name, int birthYear, int nbBugs, int rate) {
-        super(name, birthYear, rate, "Tester");
-        this.nbBugs = nbBugs;
-        System.out.println("We have a new employee: " + name + ", a " + getRole());
+        this(name, birthYear,nbBugs, rate, null);
+//        super(name, birthYear, rate, "Tester");
+//        this.nbBugs = nbBugs;
+//        System.out.println("We have a new employee: " + name + ", a " + getRole());
 
     }
     public Tester(String name, int birthYear, int nbBugs, int rate,Vehicle employeeVehicle) {
