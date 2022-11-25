@@ -4,11 +4,11 @@ public class Programmer extends Employee {
     int bonus;
 
     public Programmer(String name, int birthYear, int nbProjects, int rate) {
-        this(name, birthYear,nbProjects, rate, null);
+        this(name, birthYear, nbProjects, rate, null);
     }
 
-    public Programmer(String name, int birthYear, int nbProjects, int rate,Vehicle employeeVehicle) {
-        super(name, birthYear, rate, "Programmer",employeeVehicle);
+    public Programmer(String name, int birthYear, int nbProjects, int rate, Vehicle employeeVehicle) {
+        super(name, birthYear, rate, "Programmer", employeeVehicle);
         this.nbProjects = nbProjects;
         System.out.println("We have a new employee: " + name + ", a " + getRole());
 

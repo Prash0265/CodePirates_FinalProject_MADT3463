@@ -9,7 +9,6 @@ public class Employee {
     Contract employeeContract;
 
 
-
     public Employee(String name, int birthYear, int rate, String role) {
         this.name = name;
         this.birthYear = birthYear;
@@ -51,14 +50,13 @@ public class Employee {
         if (employeeContract != null) {
             monthlySalary = employeeContract.getFinalAmount();
         }
-        monthlySalary *= getRate()/100f;
+        monthlySalary *= getRate() / 100f;
         return monthlySalary;
     }
 
     public float getAnnualIncome() {
         return getMonthlySalary() * 12;
     }
-
 
 
     public void signContract(Contract employeeContract) {

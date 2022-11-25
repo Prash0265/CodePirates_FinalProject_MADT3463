@@ -14,8 +14,7 @@ public class Motorcycle extends Vehicle {
         vehicleDescription = super.toString();
         if (sidecar) {
             vehicleDescription += "\t - with sidecar\n";
-        }
-        else vehicleDescription += "\t - without sidecar\n";
+        } else vehicleDescription += "\t - without sidecar\n";
         return "Employee has a Motorcycle: \n" + vehicleDescription;
     }
 }

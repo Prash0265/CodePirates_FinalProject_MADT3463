@@ -3,6 +3,7 @@ public class Vehicle {
     String plate;
     String color;
     String category;
+
     public Vehicle(String make, String plate, String color, String category) {
         this.make = make;
         this.plate = plate;
@@ -30,10 +31,10 @@ public class Vehicle {
 
     public String toString() {
         String vehicleDescription;
-        vehicleDescription = "\t - make:"+getMake()+"\n";
-        vehicleDescription += "\t - plate:"+getPlate()+"\n";
-        vehicleDescription += "\t - color:"+getColor()+"\n";
-        vehicleDescription += "\t - category:"+getCategory()+"\n";
+        vehicleDescription = "\t - make:" + getMake() + "\n";
+        vehicleDescription += "\t - plate:" + getPlate() + "\n";
+        vehicleDescription += "\t - color:" + getColor() + "\n";
+        vehicleDescription += "\t - category:" + getCategory() + "\n";
         return vehicleDescription;
     }
 }

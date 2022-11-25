@@ -1,6 +1,7 @@
 public interface Contract {
     float getFinalAmount();
 }
+
 class Permanent implements Contract {
     int nbChildren;
     boolean married;
@@ -66,6 +67,7 @@ class Temporary implements Contract {
         this.hourlySalary = hourlySalary;
         this.accumulatedHours = accumulatedHours;
     }
+
     public float getFinalAmount() {
         int finalAmount;
         finalAmount = hourlySalary * accumulatedHours;
