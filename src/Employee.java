@@ -7,14 +7,20 @@ public class Employee {
     private final String role;
     Vehicle employeeVehicle;
     Contract employeeContract;
+    static int maxRate;
+    static int minRate;
 
+    static {
+        maxRate = 100;
+        minRate = 10;
+    }
 
     public Employee(String name, int birthYear, int rate, String role) {
         this.name = name;
         this.birthYear = birthYear;
-        if (rate > 100) {
-            this.rate = 100;
-        } else this.rate = Math.max(rate, 10);
+        if (rate > maxRate) {
+            this.rate = maxRate;
+        } else this.rate = Math.max(rate, minRate);
         this.role = role;
     }
 
