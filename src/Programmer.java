@@ -5,10 +5,6 @@ public class Programmer extends Employee {
 
     public Programmer(String name, int birthYear, int nbProjects, int rate) {
         this(name, birthYear,nbProjects, rate, null);
-//        super(name, birthYear, rate, "Programmer");
-//        this.nbProjects = nbProjects;
-//        System.out.println("We have a new employee: " + name + ", a " + getRole());
-
     }
 
     public Programmer(String name, int birthYear, int nbProjects, int rate,Vehicle employeeVehicle) {

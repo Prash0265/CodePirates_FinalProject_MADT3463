@@ -12,40 +12,17 @@ class Permanent implements Contract {
         return nbChildren;
     }
 
-    public void setNbChildren(int nbChildren) {
-        this.nbChildren = nbChildren;
-    }
 
     public boolean isMarried() {
         return married;
-    }
-
-    public void setMarried(boolean married) {
-        this.married = married;
     }
 
     public int getMonthlySalary() {
         return monthlySalary;
     }
 
-    public void setMonthlySalary(int monthlySalary) {
-        this.monthlySalary = monthlySalary;
-    }
-
-    public int getBonusPerChildPerMonth() {
-        return bonusPerChildPerMonth;
-    }
-
-    public void setBonusPerChildPerMonth(int bonusPerChildPerMonth) {
-        this.bonusPerChildPerMonth = bonusPerChildPerMonth;
-    }
-
     public int getAccumulatedDays() {
         return accumulatedDays;
-    }
-
-    public void setAccumulatedDays(int accumulatedDays) {
-        this.accumulatedDays = accumulatedDays;
     }
 
     Permanent(int nbChildren, boolean married, int monthlySalary, int bonusPerChildPerMonth, int accumulatedDays) {
@@ -61,13 +38,12 @@ class Permanent implements Contract {
         if (isMarried()) {
             finalAmount += (nbChildren * bonusPerChildPerMonth);
         }
-        return finalAmount * accumulatedDays / 20;
+        return finalAmount * accumulatedDays / 20f;
     }
 
     @Override
     public String toString() {
         String output;
-        //output = super.toString();
         output = ". he/she is Married" + " and he/she has " + getNbChildren() + " children.\nHe/She has worked for " + getAccumulatedDays() + " days and upon contract his/her monthly salary is " + getMonthlySalary();
         return output;
     }
@@ -82,16 +58,8 @@ class Temporary implements Contract {
         return hourlySalary;
     }
 
-    public void setHourlySalary(int hourlySalary) {
-        this.hourlySalary = hourlySalary;
-    }
-
     public int getAccumulatedHours() {
         return accumulatedHours;
-    }
-
-    public void setAccumulatedHours(int accumulatedHours) {
-        this.accumulatedHours = accumulatedHours;
     }
 
     Temporary(int hourlySalary, int accumulatedHours) {
